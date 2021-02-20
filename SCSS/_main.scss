@@ -1,0 +1,9 @@
+.main_parrafo_estilo{
+	background-color: violet;
+	font-size:30px;
+	font-style:italic;
+	margin:0px;
+	margin-top: 0px;
+	@include cambiarBorde(5px,purple,solid)
+	
+}

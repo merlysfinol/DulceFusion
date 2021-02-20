@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dulcefusion.chile</title>
+	<link rel="shortcut icon" href="../img/logo.png" />
+ 	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="../css/all.css" rel="stylesheet">
+</head>
+<body>
+<header>
+	<ul class="nav justify-content-center">
+
+			<li class="nav-item mediaNav">
+				<br>
+				<a class="nav-link text-body " href="../index.html">Home</a>
+			</li>
+			<li class="nav-item dropdown">
+				<br>
+				
+				<a class="nav-link dropdown-toggle text-body" id="menu" data-toggle="dropdown" href="#">Nosotros</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="nosotros.html">Sobre Nosotros</a>
+					<a class="dropdown-item" href="envios.html">Repartos y Envios</a>
+			</li>
+				</div>
+				<li class="nav-item">
+					<a class="nav-link text-body" href="../index.html"><img id="logo"src="../img/logo.png" alt="este es el logo"></a>
+				</li>
+				<li class="nav-item dropdown" >
+						<br>
+						<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="tienda.html">Tienda</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="arreglos.html">Arreglos</a>
+							<a class="dropdown-item" href="desayunos.html">Desayunos</a>
+							<a class="dropdown-item" href="cajas.html">Cajas Sopresas</a>
+							<a class="dropdown-item" href="chocoramos.html">Ramos de Chocolates</a>
+							<a class="dropdown-item" href="loultimo.html">Lo Último</a>
+						</div>
+				</li>
+						<li class="nav-item mediaNav">
+							<br>
+							<a class="nav-link text-body" href="contactos.html">Contactos</a>
+						</li>
+		</ul>
+      
+</header>
+
+<main>
+
+			<div class="animate__animated animate__fadeInRight">
+				<img class="fotoPortada" src="../img/cr23.jpg" style="width: 100%;"  alt="imagen de presentacion"> 
+			</div>
+			<br>
+			<br>
+			<div class="padreContacto">
+
+				<div class="contacto contacto1 ">
+					<img src="../img/telefono1.png" id="img1">
+					<h4>TELÉFONO</h4>
+					<p>+56987734280</p>
+				</div>
+
+				<div class="contacto contacto2">
+					<img src="../img/entrega2.png"  id="img1">
+					<h4>ENVIOS</h4>
+					<p>Envios a todo Santiago</p>
+				</div>
+
+				<div class="contacto contacto3">
+					<img src="../img/email1.png"  id="img1">
+					<h4>EMAIL</h4>
+					<p >dulcefusion.chile@gmail.com</p>
+				</div>
+				
+				
+
+			</div>
+<br>
+<br>
+			<div class="container">
+		    <div class="row">
+		        <div class="col-md-12">
+		            <div class="well well-sm ">
+		                <form class="form-horizontal " method="post">
+		                    <fieldset>
+		                        <h2 class="text-center header">Formulario de Contacto</h2>
+
+		                        <div class="form-group">
+		                            <span class="col-md-1 offset-md-2 "><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+		                            <div class=" col-md-8 mx-auto">
+		                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control ">
+		                            </div>
+		                        </div>
+		                        <div class="form-group">
+		                            <span class="col-md-1  offset-md-2  "><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+		                            <div class="col-md-8 mx-auto">
+		                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <span class="col-md-1  offset-md-2 "><i class="fas fa-envelope" aria-hidden="true"></i></span>
+		                            <div class="col-md-8 mx-auto">
+		                                <input id="email" name="email" type="text" placeholder="Correo Electronico" class="form-control">
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <span class="col-md-1  offset-md-2 "><i class="fa fa-phone-square bigicon"></i></span>
+		                            <div class="col-md-8 mx-auto">
+		                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <span class="col-md-1  offset-md-2 "><i class="fa fa-comments" aria-hidden="true"></i></span>
+		                            <div class="col-md-8 mx-auto">
+		                                <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="7"></textarea>
+		                            </div>
+		                        </div>
+
+		                        <div class="form-group">
+		                            <div class="col-md-12 text-center">
+		                                <button type="submit" class="btn btn-outline-info btn-lg">Enviar</button>
+		                            </div>
+		                        </div>
+		                    </fieldset>
+		                </form>
+		            </div>
+		        </div>
+		    </div>
+</div>
+
+	
+
+	
+</main>
+<footer>
+		<nav class="navegacionFooter fondoFooter">
+			<div class="footer1">
+				<a class="nav-link" href="../index.html"><img src="../img/logo.png" style="width: 200px; height: 200px;" alt="este es el logo"></a>
+			</div>
+			<div class="footer2 ">
+				<h3 class="subtituloMenu">Menu</h3>
+				<ul >
+					<li class="listaFooter"><a href="../index.html">Home</a></li>
+					<li class="listaFooter"><a href="nosotros.html">Nosotros</a></li>
+					<li class="listaFooter"><a href="tienda.html">Tienda</a></li>
+					<li class="listaFooter"><a href="envios.html">ZonaDeEnvios</a></li>
+				</ul>
+			</div>	
+
+			<div class="footer3">
+				<h3 class="subtituloMenu">Categorias</h3>
+				<ul> 
+					<li class="listaFooter"><a href="arreglos.html">Arreglos</a></li>
+					<li class="listaFooter"><a href="desayunos.html">Desayunos</a></li>
+					<li class="listaFooter"><a href="cajas.html">CajasSorpresas</a></li>
+					<li class="listaFooter"><a href="chocoramos.html">RamosDeChocolates</a></li>
+					<li class="listaFooter"><a href="loUltimo.html">LoUltimo</a></li>
+
+				</ul>
+			</div>
+
+			<div class="footer4">
+				<h3 class="subtituloMenu">Siguenos</h3>
+				<ul>
+					<li class="listaFooter"><a href="https://www.instagram.com/dulcefusion.chile/"><img id="img" src="../img/instagram.png" alt="logo instagram"></a></li>
+
+					<li class="listaFooter"><a href="https://www.facebook.com/Dulcefusionchile-100586755013589"><img  id="img" src="../img/facebook.png" alt="logo facebook"></a></li>
+
+					<li class="listaFooter"><a href="https://api.whatsapp.com/send/?phone=56987734280&text&app_absent=0"><img  id="img" src="../img/whatsapp.png" alt="logo whatsapp"></a></li>
+
+				</ul>	
+			</div>
+		</nav>
+		
+	</footer>	
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		
+</body>
+</html>

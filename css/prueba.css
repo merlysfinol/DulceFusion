@@ -1,0 +1,65 @@
+h3 {
+  font-family: "Pacifico", cursive;
+  color: black; }
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  background-color: #F6F6F6;
+  text-align: center; }
+
+.nav-link {
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  color: black; }
+
+#logo {
+  width: 120px;
+  height: 120px; }
+
+.main_parrafo_estilo {
+  background-color: violet;
+  font-size: 30px;
+  font-style: italic;
+  margin: 0px;
+  margin-top: 0px;
+  border-width: 5px;
+  border-color: purple;
+  border-style: solid; }
+
+footer {
+  background-color: #E7E5E7; }
+
+ul {
+  list-style-type: none; }
+
+.navegacionFooter {
+  display: flex;
+  justify-content: space-between; }
+
+.subtituloMenu {
+  font-size: 45px; }
+
+.nav-footer {
+  font-family: "Merriweather Sans", sans-serif;
+  color: black;
+  font-size: 25px; }
+
+.footer1 .footer2 .footer3 .footer4 {
+  font-size: 55px;
+  float: left; }
+
+.footer1 {
+  margin-left: 5%; }
+
+.footer4 {
+  margin-right: 10%; }
+
+#img {
+  height: 50px;
+  width: 50px;
+  margin-left: 40px; }
