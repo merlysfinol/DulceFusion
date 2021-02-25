@@ -8,10 +8,31 @@
 	box-sizing: border-box;
 }
 
+.navPequeño{
+font-size: 30px;
+font-family: 'Pacifico', cursive;
+color: black;
+}
+
+#montadoNav{
+	display: none;
+}
+
+.navPequeño:hover{
+	background-color: rgb(187, 247, 247);
+}
+
 header{
 	width: 100%;	
 }
-.nav{
+
+.icon{
+	width: 30px;
+	height: 30px;
+	margin-top: 55px;
+}
+
+.nav-link{
 font-family: 'Pacifico', cursive;
 }
 
@@ -25,6 +46,9 @@ font-size: 30px;
 
 .dropdown-menu{
 	font-size: 25px;
+}
+.dropdown-item{
+	font-family: 'Pacifico', cursive;
 }
 
 #logo{
@@ -181,31 +205,9 @@ grid-area: pos4;
 	margin-top: 8%;
 }
 
-.boton{
-	width: 50%;
-	height: 60%;
-	margin-bottom: 5%;
+#boton{
 	margin-top: 5%;
-	font-size: 30%;
 }
-
-.boton1{
-	width: 60%;
-	height: 75%;
-	margin-top: 20px;
-	margin-left:150px;
-	font-size: 25px;
-}
-
-.boton2{
-	width: 60%;
-	height: 75%;
-	margin-top: 20px;
-	margin-left:20px;
-	font-size: 25px;
-}
-
-
 
 .tituloCard{
 	font-size: 35px;
@@ -219,11 +221,11 @@ grid-area: pos4;
 .padreCard{
 	display:flex;
 	justify-content: space-between;
+	
 }
 .card1 .card2 .card3 .card4{
 	float: left;
 	width:19%; height: 18%;
-	
 }
 
 .padreMain{
@@ -316,13 +318,13 @@ padding-left: 40px;
 
 .animacionMain:hover{
 	transform: scale(1.1,1);
- -webkit-transform:scale(1.2)
+ 	-webkit-transform:scale(1.2)
 }
 
 
  
 .hijoMain img{
- width:300px;
+ 	width:300px;
 }
 
 .padreContacto{
@@ -350,39 +352,37 @@ padding-left: 40px;
     width: 100%;
     height: 281px;
     position: absolute;
-   
  }
 
- .navegacionFooter{
- display: flex; 
- justify-content:space-between;
-   
-
+.navegacionFooter{
+ 	display: flex; 
+ 	justify-content:space-between;
  }
+
 .footer1 .footer2 .footer3 .footer4{
 	font-size: 35px;
 	float: left;
 }
 
-.footer1{
-	
-	margin-left: 5%;
+.footer1{	
+ 	margin-left: 5%;
 }
 
 .footer4{
-
-margin-right: 10%;
+	margin-right: 10%;
 }
 
 .subtituloMenu{
-font-size:45px;
-color:black;
-font-family: 'Pacifico', cursive;
+	font-size:45px;
+	color:black;
+	font-family: 'Pacifico', cursive;
 }
 
 #img{
 	height: 50px;
 	width: 50px;
+	margin-top: 10px;
+	margin-left: 50px;
 }
 
 div ul li a{
@@ -395,20 +395,27 @@ div ul li a{
 
 div ul li a:hover{
 	color: purple;
-text-decoration: none;
+	text-decoration: none;
 }
 
 
 .listaFooter{
-	display:block;
-	
+	display:block;	
+}
+.textoFooter{
+	font-size: 27px;
 }
 
 /*-----------------------media------------------------------------*/
 /* --------------------------------------------------------------*/
 
-@media (min-width: 601px) and (max-width: 1000px) {
-
+@media (min-width: 601px) and (max-width: 1250px) {
+.mediaNav{
+	display: none;
+}
+span{
+	display: none;
+}
 .iconoNav{
 	display: none;
 }
@@ -432,23 +439,14 @@ text-decoration: none;
 	width: 100%;
 	height: 50%;
     margin:10px;
-	 grid-template-rows: 30% 25% 15% 12% 20%;
-	 grid-template-columns: 47.5% 47.5%;
-
-
-	 grid-gap: 5px;
-	 
-	 grid-template-areas: "pos1 pos1"
-	 					  "pos1 pos1"					  
-	 					  "pos2 pos3"
-	 					  "pos2 pos3"
-	 					  "pos4 pos4";
-}
-.boton{
-	font-size: 45px;
-}
-.boton1{
-	margin-left:60%;
+	grid-template-rows: 30% 25% 15% 12% 20%;
+	grid-template-columns: 47.5% 47.5%;
+	grid-gap: 5px; 
+	grid-template-areas: "pos1 pos1"
+	 					 "pos1 pos1"					  
+	 					 "pos2 pos3"
+	 					 "pos2 pos3"
+	 					 "pos4 pos4";
 }
 
 .card3{
@@ -469,52 +467,54 @@ text-decoration: none;
 }
 
 .izquierda .centro .derecha .izquierdaBajo .centroBajo .derechaBajo{
-	
 	padding: 0px;
 	margin: 0px;
 }
+
 .izquierda{
- grid-area: pos1;
- width:400px;
+	grid-area: pos1;
+ 	width:400px;
 }
 
 .centro{
-grid-area: pos2;
-width:400px;
-margin-left: 50%;
+	grid-area: pos2;
+	width:400px;
+	margin-left: 50%;
 }
 
 .derecha{
-grid-area: pos3;
-width:400px;
+	grid-area: pos3;
+	width:400px;
 }
 
 .izquierdaBajo{
-grid-area: pos4;
-width:400px;
-margin-left: 50%;
+	grid-area: pos4;
+	width:400px;
+	margin-left: 50%;
 }
 
 .centroBajo{
-grid-area: pos5;
-width:400px;
+	grid-area: pos5;
+	width:400px;
 }
 
 .derechaBajo{
-grid-area: pos6;
-width:400px;
-margin-left: 50%;
-
+	grid-area: pos6;
+	width:400px;
+	margin-left: 50%;
 }
+
 .navegacionFooter{
- display: flex; 
- flex-direction:row;
- text-align: center;
- position: absolute;
- }
- .fotoBaja{
+ 	display: flex; 
+ 	flex-direction:row;
+	text-align: center;
+ 	position: absolute;
+}
+
+.fotoBaja{
  	display: none;
- }
+}
+
 .subtituloMenu{
 	font-size: 30px;
 }
@@ -522,19 +522,26 @@ margin-left: 50%;
 
 
 
-
-
-@media (max-width: 600px) {
-
-.mediaNav{
+@media (max-width: 750px) {
+#quitadoNav{
 	display: none;
 }
-.iconoNav{
-	display: none;
+
+#montadoNav{
+	display: contents;
 }
+
 #logo2{
-	width: 110px;
-	height: 110px;
+	width: 100px;
+	height: 100px;
+}
+
+.fotoPortada{
+	height: 300px;
+}
+
+#img{
+	margin-right:10%;
 }
 
 .mainMediano{	
@@ -543,28 +550,29 @@ margin-left: 50%;
 
 .carousel-inner img {
     width: 100%;
-    height: 400px;
-  }
+    height: 300px;
+}
 
 .tituloIndex{
-	font-size: 70px;
-  }
+	font-size: 60px;
+}
 
 .contenedor{
 	display:grid;
 	width: 100%;
-	height: 50%;
+	height: 100%;
     margin:10px;
-	 grid-template-rows: 30% 25% 30% 20% ;
-	 grid-template-columns: 47.5% 47.5%;
+	grid-template-rows: 33% 32% 30% 17% ;
+	grid-template-columns: 95%;
+	grid-gap: 5px;
+	grid-template-areas: "pos1"					  
+	 					  "pos2"
+						  "pos3"
+	 					  "pos4";
+}
 
-
-	 grid-gap: 5px;
-	 
-	 grid-template-areas: "pos1 pos1"
-	 					  "pos1 pos1"	 					  
-	 					  "pos2 pos3"
-	 					  "pos4 pos4";
+.prueba{
+	margin-top: 300px;
 }
 
 .padreMain{
@@ -583,82 +591,76 @@ margin-left: 50%;
 	 					  "pos6";
 }
 .izquierda .centro .derecha .izquierdaBajo .centroBajo .derechaBajo{
-	
 	padding: 0px;
 	margin: 0px;
 }
+
 .izquierda{
- grid-area: pos1;
- width: 100%;
+ 	grid-area: pos1;
+ 	width: 100%;
 }
 
 .centro{
-grid-area: pos2;
-width: 100%;
+	grid-area: pos2;
+	width: 100%;
 }
 
 .derecha{
-grid-area: pos3;
-width: 100%;
+	grid-area: pos3;
+	width: 100%;
 }
 
 .izquierdaBajo{
-grid-area: pos4;
-width: 100%;
+	grid-area: pos4;
+	width: 100%;
 }
 
 .centroBajo{
-grid-area: pos5;
-width: 100%;
+	grid-area: pos5;
+	width: 100%;
 }
 
 .derechaBajo{
-grid-area: pos6;
-width: 100%;
-
+	grid-area: pos6;
+	width: 100%;
 }
 
 .contacto1{
-grid-area: pos1;
-width: 100%;
+	grid-area: pos1;
+	width: 100%;
 }
 
 .contacto2{
-grid-area: pos2;
-width: 100%;
+	grid-area: pos2;
+	width: 100%;
 }
+
 .contacto3{
-grid-area: pos3;
-width: 100%;	
+	grid-area: pos3;
+	width: 100%;	
 }
+
 .card4{
 	display: none !important;
 }
+
 .card3{
 	display: none !important;
 }
-.boton{
-	font-size: 45px;
-}
-
-.boton1{
-	margin-left: 25px;
-}
 
 .navegacionFooter{
- display: flex; 
- flex-direction: column;
- text-align: center;
- position: absolute;
-  height: auto;
+ 	display: flex; 
+ 	flex-direction: column;
+ 	text-align: center;
+ 	position: absolute;
+  	height: auto;
  }
 
- .footer4{
-
-margin-right: 0%;
+.footer4{
+	margin-right: 0%;
 }
 
 .imgBaja{
 	display: none;
 }
-
+ }
