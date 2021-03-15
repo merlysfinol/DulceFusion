@@ -3,59 +3,129 @@
 <head>
 	<title>Dulcefusion.chile</title>
 	<link rel="shortcut icon" href="../img/logo.png" />
-	<link rel="stylesheet" type="text/css" href="../css/prueba.css">
-
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
-
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	
 </head>
 <body>
 	<header>
-		<nav>
-		<ul class="nav justify-content-center animate__animated animate__fadeInDown ">
+		<div id="quitadoNav">
+			<ul class="nav justify-content-center">
+				<div class="p-2 mr-auto iconoNav d-flex">
+					<span class="col-md-1 offset-md-2"><li><a href="https://www.instagram.com/dulcefusion.chile/">
+						<img class="icon" src="../img/instagram.png" alt="logo instagram"></a></li></span>
 
-			<li class="nav-item">
-				<br>
-				<a class="nav-link text-body " href="../index.html">Home</a>
-			</li>
-			<li class="nav-item dropdown">
-				<br>
-				
-				<a class="nav-link dropdown-toggle text-body" id="menu" data-toggle="dropdown" href="#">Nosotros</a>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="nosotros.html">Sobre Nosotros</a>
-					<a class="dropdown-item" href="envios.html">Repartos y Envios</a>
+					<span class="col-md-1 offset-md-2"><li><a href="https://www.facebook.com/Dulcefusionchile-100586755013589">
+						<img class="icon" src="../img/facebook.png" alt="logo facebook"></a></li></span>	
 				</div>
-				<li class="nav-item">
-					<a class="nav-link text-body" href="../index.html"><img id="logo"src="../img/logo.png" alt="este es el logo"></a></li>
-					<li class="nav-item dropdown" >
-						<br>
-						<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="tienda.html">Tienda</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="arreglos.html">Arreglos</a>
-							<a class="dropdown-item" href="desayunos.html">Desayunos</a>
-							<a class="dropdown-item" href="cajas.html">Cajas Sopresas</a>
-							<a class="dropdown-item" href="chocoramos.html">Ramos de Chocolates</a>
-							<a class="dropdown-item" href="loultimo.html">Lo Último</a>
-						</div></li>
-						<li class="nav-item">
-							<br>
-							<a class="nav-link text-body" href="contacto.html">Contactos</a>
-						</li>
-					</ul>
-		</nav>
 		
-	</header>
+				<li class="nav-item"><br>
+					<a class="nav-link nave text-body " href="../index.html">Home</a>
+				</li>
 
+				<li class="nav-item dropdown"><br>
+					<a class="nav-link nave dropdown-toggle text-body" data-toggle="dropdown" href="#">Nosotros</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="nosotros.html">Sobre Nosotros</a>
+							<a class="dropdown-item" href="envios.html">Repartos y Envios</a>
+						</div>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link nave text-body" href="../index.html"><img id="logo"src="../img/logo.png" alt="este es el logo"></a>
+				</li>
+
+				<li class="nav-item dropdown"><br>
+						<a class="nav-link dropdown-toggle nave text-body" data-toggle="dropdown" href="tienda.html">Tienda</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="arreglos.html">Arreglos</a>
+								<a class="dropdown-item" href="desayunos.html">Desayunos</a>
+								<a class="dropdown-item" href="cajas.html">Cajas Sopresas</a>
+								<a class="dropdown-item" href="chocoramos.html">Ramos de Chocolates</a>
+								<a class="dropdown-item" href="loultimo.html">Lo Último</a>
+							</div>
+				</li>
+
+				<li class="nav-item"><br>
+					<a class="nav-link nave text-body" href="contacto.html">Contactos</a>
+				</li>
+
+				<div class="p-2 ml-auto d-flex  iconoNav">
+					<span class="col-md-1 offset-md-2"><li><a href=>
+						<img class="icon" src="../img/carrito.png" alt="logo carrito"></a></li></span>
+
+					<span class="col-md-1 offset-md-2"><li><a href=>
+						<img class="icon" src="../img/lupa.png" alt="logo lupa"></a></li></span>	
+				</div>
+			</ul>
+		</div>
+	
+		<div id="montadoNav">
+			<nav class="navbar navbar-expand-md bg-light navbar-dark">
+				<a class="navbar-brand" href="../index.html">
+				<img src="../img/logo.png" alt="logo" style="width:130px; height: 130px;" > </a>
+			 
+				<button class="navbar-toggler btn-dark " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon "></span></button>
+			
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav mr" >
+						<li class="nav-item">
+						<a class="nav-link navPequeño text-dark" href="arreglos.html">Arreglos</a>
+						</li>
+
+						<li class="nav-item">
+						<a class="nav-link navPequeño text-dark" href="desayunos.html">Desayunos </a>
+						</li>
+
+						<li class="nav-item">
+						<a class="nav-link navPequeño text-dark" href="chocoramos.html">Ramos de Chocolate</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link navPequeño text-dark" href="cajas.html">Cajas Sorpresas</a>
+						</li>  
+
+						<li class="nav-item">
+							<a class="nav-link navPequeño text-dark" href="loultimo.html">Lo Último</a>
+						</li>  
+
+						<li class="nav-item">
+							<a class="nav-link navPequeño text-dark" href="nosotros.html">Sobre Nosotros</a>
+						</li>  
+
+						<li class="nav-item">
+							<a class="nav-link navPequeño text-dark" href="envios.html">Repartos Y Envios</a>
+						</li>  
+
+						<li class="nav-item">
+							<a class="nav-link navPequeño text-dark" href="contacto.html">Contactos</a>
+						</li>  
+					</ul>
+				</div>  
+	  		</nav>
+       </div>  
+
+	</header>
 	<main>
-		<h1>Sobre Nosotros</h1>
-		<p class="main_parrafo_estilo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quo dicta sequi eum repellendus ea fugit ut ratione non consequuntur excepturi laboriosam et, facilis eius consectetur eaque ad nihil error perferendis provident recusandae nobis corrupti nostrum eligendi pariatur. Nulla necessitatibus modi laboriosam, amet ipsam numquam accusantium quasi rem, vel qui recusandae hic doloribus temporibus, eligendi animi, quae sapiente? Architecto, pariatur modi enim quis molestiae hic labore quae earum, a neque! Accusantium placeat esse maiores quibusdam consequuntur eum corporis ipsa. Ratione distinctio, soluta et omnis quis nihil excepturi optio necessitatibus recusandae dolorem quidem maxime alias quasi tenetur hic architecto. Aspernatur, accusantium.</p>
+		<div  class="  animate__animated animate__fadeInRight">
+			<img class="fotoPortada" src="../img/cr14.jpg"  alt="imagen de presentacion" > 
+		</div>
+
+		<p class="main_parrafo_estilo">Nuestra historia comenzó cuando decidimos emigrar a Chile, un hermoso país que nos recibió con los brazos abiertos,queríamos hacer algo único y poco común, de ahi nacio la idea de Dulce Fusion, donde podiamos ofrecer Ramos de Chocolates,con el tiempo fuimos agregando nuevos productos los cuales promocionamos por nuestras redes sociales,los comentarios que recibimos fueron muy positivos y gracias a los conocimientos que tenemos en diseño creamos dulcefusion.chile, hoy en dia nos sentimos muy orgullosos de poder ofrecer para todo Santiago de manera profesional no solo Ramos de Chocolate, si no también la gran variedad de regalos únicos, con los cuales hemos podido transmitir un sin fin de emociones y alegrías.
+			<ul class="main_parrafo_estilo">
+				<li>Estamos obsesionados con los detalles</li>
+				<li>Buscamos que todas las personas que reciben un producto de Dulce Fusion, sea algo completamente único</li>
+				<li>Nuestra Misión: Regalar emociones a miles de personas con nuestros regalos</li>
+			</ul>
+		</p>
 	</main>
 
 	<footer>
@@ -69,7 +139,7 @@
 					<li class="listaFooter"><a class="nav-footer" href="../index.html">Home</a></li>
 					<li class="listaFooter"><a class="nav-footer" href="nosotros.html">Nosotros</a></li>
 					<li class="listaFooter"><a class="nav-footer" href="tienda.html">Tienda</a></li>
-					<li class="listaFooter"><a class="nav-footer" href="envios.html">ZonaDeEnvios</a></li>
+					<li class="listaFooter"><a class="nav-footer" href="envios.html">Zona De Envios</a></li>
 				</ul>
 			</div>	
 
@@ -78,9 +148,9 @@
 				<ul> 
 					<li class="listaFooter"><a class="nav-footer" href="arreglos.html">Arreglos</a></li>
 					<li class="listaFooter"><a class="nav-footer" href="desayunos.html">Desayunos</a></li>
-					<li class="listaFooter"><a class="nav-footer" href="cajas.html">CajasSorpresas</a></li>
-					<li class="listaFooter"><a class="nav-footer" href="chocoramos.html">RamosDeChocolates</a></li>
-					<li class="listaFooter"><a class="nav-footer" href="loUltimo.html">LoUltimo</a></li>
+					<li class="listaFooter"><a class="nav-footer" href="cajas.html">Cajas Sorpresas</a></li>
+					<li class="listaFooter"><a class="nav-footer" href="chocoramos.html">Ramos De Chocolates</a></li>
+					<li class="listaFooter"><a class="nav-footer" href="loUltimo.html">Lo Último</a></li>
 
 				</ul>
 			</div>

@@ -9,3 +9,9 @@
 	border-color: $color;
 	border-style: $estilo;
 }
+
+@mixin icon($ancho,$largo,$margin){
+	width:$ancho;
+	height: $largo;
+	margin-top: $margin;
+}

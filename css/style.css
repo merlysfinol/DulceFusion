@@ -8,12 +8,6 @@
 	box-sizing: border-box;
 }
 
-.navPequeño{
-font-size: 30px;
-font-family: 'Pacifico', cursive;
-color: black;
-}
-
 #montadoNav{
 	display: none;
 }
@@ -22,31 +16,34 @@ color: black;
 	background-color: rgb(187, 247, 247);
 }
 
-header{
-	width: 100%;	
+.navPequeño1{
+	font-size: 40px;
 }
 
 .icon{
-	width: 30px;
-	height: 30px;
-	margin-top: 55px;
+	width: 35px;
+	height: 35px;
+	margin-top: 45px;
+}
+
+.navPequeño1:hover{
+	background-color: rgb(187, 247, 247);
+}
+
+.icon2{
+	width: 25px;
+	height: 25px;
+	margin-top: 30px;
 }
 
 .nav-link{
 font-family: 'Pacifico', cursive;
 }
 
-.nav-item{
-font-size: 30px;
-}
-
 .nav-item:hover{
 	text-decoration: underline;
 }
 
-.dropdown-menu{
-	font-size: 25px;
-}
 .dropdown-item{
 	font-family: 'Pacifico', cursive;
 }
@@ -60,7 +57,14 @@ font-size: 30px;
 	height: 505px
 }
 
+#logo2{
+	width: 160px;
+	height: 160px;
+}
 
+.nave{
+	font-size: 40px;
+}
 
 /*********************************************************************************************************************************/
 /*                                                      MAIN                                                                     /          
@@ -71,18 +75,11 @@ body{
 	padding-bottom:281px;
 	position: relative;
 }
-#logo2{
-	width: 160px;
-	height: 160px;
+
+.carousel-inner{
+	height: 100%;
 }
 
-.nave{
-	font-size: 40px;
-}
-
-.botonDesplegable{
-	font-size: 30px;
-}
 /*envios*/
 .tabla{
 	margin-top: 5%;
@@ -207,6 +204,7 @@ grid-area: pos4;
 
 #boton{
 	margin-top: 5%;
+	font-size: 35px;
 }
 
 .tituloCard{
@@ -237,91 +235,20 @@ flex-wrap: wrap;
 
 }
 
-.izquierda{
-width:29%;
-height:470px;
-background-color:#ED64FF;
-float: left;
-margin-top: 5px;
-margin-bottom: 5px;
-margin-left:0.5%;
-margin-right: 0.5%;
-padding-left: 40px;	
-
+#medidaCard{
+	width: 100%;
+	height: 500px;
 }
 
-
-
-.centro{
-width :39%; 
-height:470px;
-background-color:#ED64FF;
-float:left;
-margin-top: 5px;
-margin-bottom: 5px;
-margin-left:0.5%;
-margin-right: 0.5%;
-padding-left: 60px;	
-
-
-}
-
-.derecha{
-width:29%;
-height:470px;
-background-color:#ED64FF;
-float: right;
-margin-top: 5px;
-margin-bottom: 5px;
-margin-left:0.5%;
-margin-right: 0.5%;
-padding-left: 40px;	
-}
-
-.izquierdaBajo{
-width:29%; 
-height:470px;
-background-color:#ED64FF;
-float: left;
-margin-top: 5px;
-margin-bottom: 5px;
-margin-left:0.5%;
-margin-right: 0.5%;
-padding-left: 40px;	
-
-}
-
-.centroBajo{
-width:39%;
-height:470px;
-background-color:#ED64FF;
-float: left;
-margin-top: 5px;
-margin-bottom: 5px;
-margin-left:0.5%;
-margin-right: 0.5%;
-padding-left: 60px;	
-}
-
-.derechaBajo{
-width:29%; 
-height:470px;
-background-color:#ED64FF;
-float: left;
-margin-top: 5px;
-margin-bottom: 5px;
-margin-left:0.5%;
-margin-right: 0.5%;
-padding-left: 40px;	
-
+#medidaDiv{
+	width: 500px;
+	margin-top: 20px;
 }
 
 .animacionMain:hover{
 	transform: scale(1.1,1);
  	-webkit-transform:scale(1.2)
 }
-
-
  
 .hijoMain img{
  	width:300px;
@@ -342,13 +269,17 @@ padding-left: 40px;
 	width: 80px;
 }
 
+#img2{
+	height: 90px;
+	width: 90px;
+}
+
 
 /*********************************************************************************************************************************/
 /*                                                      FOOTER                                                                   /          
 /*******************************************************************************************************************************/
 .fondoFooter{
 	background-color: #E7E5E7;
-    height: 70%;
     width: 100%;
     height: 281px;
     position: absolute;
@@ -379,8 +310,8 @@ padding-left: 40px;
 }
 
 #img{
-	height: 50px;
-	width: 50px;
+	height: 55px;
+	width: 55px;
 	margin-top: 10px;
 	margin-left: 50px;
 }
@@ -403,13 +334,35 @@ div ul li a:hover{
 	display:block;	
 }
 .textoFooter{
-	font-size: 27px;
+	font-size: 30px;
+}
+
+.textoF2{
+	font-size: 20px;
+}
+
+.subtituloMenuF{
+	font-size:35px;
+	color:black;
+	font-family: 'Pacifico', cursive;
+}
+
+#img1{
+	height: 40px;
+	width: 40px;
+	margin-top: 5px;
+	margin-left: 50px;
+}
+
+.logoF{
+width: 180px; 
+height: 180px;
 }
 
 /*-----------------------media------------------------------------*/
 /* --------------------------------------------------------------*/
 
-@media (min-width: 601px) and (max-width: 1250px) {
+@media (min-width: 701px) and (max-width: 1250px) {
 .mediaNav{
 	display: none;
 }
@@ -453,57 +406,6 @@ span{
 	display: none !important;
 }
 
-.padreMain{
-	display:grid;
-	width: 100%;
-	height: 50%;
-    margin:10px;
-	grid-template-rows: 45% 45%;
-	grid-template-columns: 33% 33% 33%;
-	grid-gap: 5px;
- 	grid-template-areas:  "pos1 pos2"
-	 					  "pos3 pos4"	 					  
-	 					  "pos5 pos6";
-}
-
-.izquierda .centro .derecha .izquierdaBajo .centroBajo .derechaBajo{
-	padding: 0px;
-	margin: 0px;
-}
-
-.izquierda{
-	grid-area: pos1;
- 	width:400px;
-}
-
-.centro{
-	grid-area: pos2;
-	width:400px;
-	margin-left: 50%;
-}
-
-.derecha{
-	grid-area: pos3;
-	width:400px;
-}
-
-.izquierdaBajo{
-	grid-area: pos4;
-	width:400px;
-	margin-left: 50%;
-}
-
-.centroBajo{
-	grid-area: pos5;
-	width:400px;
-}
-
-.derechaBajo{
-	grid-area: pos6;
-	width:400px;
-	margin-left: 50%;
-}
-
 .navegacionFooter{
  	display: flex; 
  	flex-direction:row;
@@ -511,6 +413,15 @@ span{
  	position: absolute;
 }
 
+.textoFooter{
+	font-size: 23px;
+}
+
+#img{
+	width: 45px;
+	height: 45px;
+	margin-left: 10px;
+}
 .fotoBaja{
  	display: none;
 }
@@ -522,7 +433,7 @@ span{
 
 
 
-@media (max-width: 750px) {
+@media (min-width: 150px) and (max-width:700px) {
 #quitadoNav{
 	display: none;
 }
@@ -531,17 +442,35 @@ span{
 	display: contents;
 }
 
+.tituloIndex{
+	font-size: 60px;
+}
+
+.tamaño{
+	display: none;
+}
+
 #logo2{
 	width: 100px;
 	height: 100px;
 }
-
+.quitar{
+	display: none;
+}
 .fotoPortada{
 	height: 300px;
+}
+.medidaPequeña{
+	margin-top: 210px;
 }
 
 #img{
 	margin-right:10%;
+}
+
+#medidaCard{
+	width: 100%;
+	height: 400px;
 }
 
 .mainMediano{	
@@ -553,8 +482,9 @@ span{
     height: 300px;
 }
 
-.tituloIndex{
-	font-size: 60px;
+
+#img1{
+	margin-right:10%;
 }
 
 .contenedor{
@@ -569,60 +499,6 @@ span{
 	 					  "pos2"
 						  "pos3"
 	 					  "pos4";
-}
-
-.prueba{
-	margin-top: 300px;
-}
-
-.padreMain{
-	display:grid;
-	width: 100%;
-	height:550px;
-    margin:10px;
-	grid-template-rows: 95%;
-	grid-template-columns: 95%;
-	grid-gap: 5px;
- 	grid-template-areas:  "pos1"
-	 					  "pos2"	 					  
-	 					  "pos3"
-	 					  "pos4"
-	 					  "pos5"
-	 					  "pos6";
-}
-.izquierda .centro .derecha .izquierdaBajo .centroBajo .derechaBajo{
-	padding: 0px;
-	margin: 0px;
-}
-
-.izquierda{
- 	grid-area: pos1;
- 	width: 100%;
-}
-
-.centro{
-	grid-area: pos2;
-	width: 100%;
-}
-
-.derecha{
-	grid-area: pos3;
-	width: 100%;
-}
-
-.izquierdaBajo{
-	grid-area: pos4;
-	width: 100%;
-}
-
-.centroBajo{
-	grid-area: pos5;
-	width: 100%;
-}
-
-.derechaBajo{
-	grid-area: pos6;
-	width: 100%;
 }
 
 .contacto1{
@@ -656,6 +532,11 @@ span{
   	height: auto;
  }
 
+ #img2{
+	height: 50px;
+	width: 50px;
+}
+
 .footer4{
 	margin-right: 0%;
 }
@@ -664,3 +545,17 @@ span{
 	display: none;
 }
  }
+
+@media (max-width: 575px){
+#medidaCard{
+   width: 100%;
+   height: 450px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 850px){
+	#medidaCard{
+		width: 100%;
+		height: 250px;
+}
+}

@@ -3,20 +3,31 @@
 	padding:0px;
 	box-sizing: border-box;
 }
-h1{
-	font-family: $fuente-segundaria;
-	background-color:#F6F6F6;
-	text-align: center;
+
+.dropdown-item{
+ 	font-family:$fuente-principal;	
+	 font-size:$fuente-medida;
 }
 
  .nav-link {
-	font-size:30px;
+	font-size:$fuente-medida;
 	font-family:$fuente-principal;
 	color: $color-titulo;
-
 }
 
 #logo{
 	width:120px; 
 	height:120px;
+}
+
+.icon{
+	@include icon(30px,30px,35px)
+}
+
+#montadoNav{
+	display: none;
+}
+
+.navPequeño:hover{
+	background-color: rgb(187, 247, 247);
 }
