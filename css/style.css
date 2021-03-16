@@ -112,39 +112,39 @@ body{
  }
 
 .hijo1{
- grid-area: pos1;
+ 	grid-area: pos1;
 }
 
 .hijo1:hover{
- transform: scale(1.1,1);
- -webkit-transform:scale(1.1)
+	 transform: scale(1.1,1);
+ 	-webkit-transform:scale(1.1)
 }
 
 .hijo2{
-grid-area: pos2;
+	grid-area: pos2;
 }
 
 .hijo2:hover{
- transform: scale(1.1,1);
- -webkit-transform:scale(1.1)
+ 	: scale(1.1,1);
+ 	-webkit-transform:scale(1.1)
 }
 
 .hijo3{
-grid-area: pos3;
+	grid-area: pos3;
 }
 
 .hijo3:hover{
- transform: scale(1.1,1);
- -webkit-transform:scale(1.1)
+ 	transform: scale(1.1,1);
+ 	-webkit-transform:scale(1.1)
 }
 
 .hijo4{	
-grid-area: pos4;
+	grid-area: pos4;
 }
 
 .hijo4:hover{
- transform: scale(1.1,1);
- -webkit-transform:scale(1.1)
+ 	transform: scale(1.1,1);
+ 	-webkit-transform:scale(1.1)
 }
 
 .imagen1{
@@ -199,12 +199,10 @@ grid-area: pos4;
 }
 
 .padreMain{
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-flex-wrap: wrap;
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 #medidaCard{
@@ -304,8 +302,8 @@ div ul li a:hover{
 }
 
 .logoF{
-width: 200px; 
-height: 200px;
+	width: 200px; 
+	height: 200px;
 }
 
 /*-----------------------media------------------------------------*/
@@ -493,8 +491,8 @@ span{
 }
 
 @media (min-width: 576px) and (max-width: 850px){
-	#medidaCard{
-		width: 100%;
-		height: 250px;
+#medidaCard{
+	width: 100%;
+	height: 250px;
 }
 }
