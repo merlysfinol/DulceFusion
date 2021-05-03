@@ -420,6 +420,10 @@ span{
 	font-size: 25px;
 }
 
+.contacto1{
+	display:none !important;
+}
+
 #img1{
 	margin-right:10%;
 }

@@ -17,6 +17,8 @@
 	
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
     <link href="../css/all.css" rel="stylesheet">
+	<script src='../js/main.js' async></script>
+
 </head>
 <body>
 <header>
@@ -148,6 +150,7 @@
 
 			</div>
 <br>
+<div id="alerta"> </div>
 <br>
 			<div class="container">
 		    <div class="row">
@@ -160,40 +163,47 @@
 		                        <div class="form-group">
 		                            <span class="col-md-1 offset-md-2 "><i class="fa fa-user-circle" aria-hidden="true"></i></span>
 		                            <div class=" col-md-8 mx-auto">
-		                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control ">
+		                                <input onchange="mensaje(event)"  id="name" name="name" type="text" placeholder="Nombre" maxlength="25" class="form-control ">
 		                            </div>
 		                        </div>
 		                        <div class="form-group">
 		                            <span class="col-md-1  offset-md-2  "><i class="fa fa-user-circle" aria-hidden="true"></i></span>
 		                            <div class="col-md-8 mx-auto">
-		                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+		                                <input id="surname" name="name" type="text" placeholder="Apellido" maxlength="25" class="form-control">
+		                            </div>
+		                        </div>
+
+								<div class="form-group">
+		                            <span class="col-md-1  offset-md-2 "><i class="fa fa-phone-square bigicon"></i></span>
+		                            <div class="col-md-8 mx-auto">
+		                                <input id="edad" name="edad" type="text" placeholder="Edad" maxlength="25" class="form-control">
 		                            </div>
 		                        </div>
 
 		                        <div class="form-group">
 		                            <span class="col-md-1  offset-md-2 "><i class="fas fa-envelope" aria-hidden="true"></i></span>
 		                            <div class="col-md-8 mx-auto">
-		                                <input id="email" name="email" type="text" placeholder="Correo Electronico" class="form-control">
+		                                <input id="email" name="email" type="text" placeholder="Correo Electronico"  maxlength="25" class="form-control">
 		                            </div>
 		                        </div>
 
 		                        <div class="form-group">
 		                            <span class="col-md-1  offset-md-2 "><i class="fa fa-phone-square bigicon"></i></span>
 		                            <div class="col-md-8 mx-auto">
-		                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+		                                <input id="phone" name="phone" type="text" placeholder="Teléfono" maxlength="25" class="form-control">
 		                            </div>
 		                        </div>
 
 		                        <div class="form-group">
 		                            <span class="col-md-1  offset-md-2 "><i class="fa fa-comments" aria-hidden="true"></i></span>
 		                            <div class="col-md-8 mx-auto">
-		                                <textarea class="form-control" id="message" name="message" placeholder="Mensaje" rows="7"></textarea>
+		                                <textarea class="form-control" maxlength="500" id="message" name="message" placeholder="Mensaje" rows="7"></textarea>
 		                            </div>
 		                        </div>
 
 		                        <div class="form-group">
 		                            <div class="col-md-12 text-center">
-		                                <button type="submit" class="btn btn-outline-info btn-lg">Enviar</button>
+		                                <a onclick="validarFormulario()" type="submit" class="btn btn-outline-info btn-lg">Enviar</a>
 		                            </div>
 		                        </div>
 		                    </fieldset>
