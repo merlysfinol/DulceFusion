@@ -7,13 +7,13 @@ class producto {
    titulo;
    precio;
    imagen;
-   stock;
+   categoria;
 
-   constructor(titulo, precio, imagen, stock){
+   constructor(titulo, precio, imagen, categoria){
    this.titulo = titulo;
    this.precio = precio;
    this.imagen = imagen;
-   this.stock = stock;
+   this.categoria = categoria;
 }
    calcularStock(){
       return stock > 0;
@@ -23,12 +23,12 @@ class producto {
    }
 }
 
-let ProductoUno = new producto ("Caja Sopresa Grande", 50000, "../img/caja1.jpeg", 3);
-let ProductoDos = new producto ("Caja Sopresa Dulces", 35000, "../img/caja2.jpeg", 5);
-let ProductoTres = new producto ("Caja Con Bouquet De Globos", 25000, "../img/caja3,3.jpeg", 2);
-let ProductoCuatro = new producto ("Caja Sorpresa Mediana", 40000, "../img/regalo4.jpeg", 4);
-let ProductoCinco = new producto ("Cajita De Amor", 20000, "../img/caja7.jpeg", 6);
-let ProductoSeis = new producto ("Caja Sorpresa Pequeña", 30000, "../img/caja6.jpeg", 3);
+let ProductoUno = new producto ("Caja Sopresa Grande", 50000, "../img/caja1.jpeg", "cajas");
+let ProductoDos = new producto ("Caja Sopresa Dulces", 35000, "../img/caja2.jpeg", "cajas");
+let ProductoTres = new producto ("Caja Con Bouquet De Globos", 25000, "../img/caja3,3.jpeg", "cajas");
+let ProductoCuatro = new producto ("Caja Sorpresa Mediana", 40000, "../img/regalo4.jpeg","cajas");
+let ProductoCinco = new producto ("Cajita De Amor", 20000, "../img/caja7.jpeg", "cajas");
+let ProductoSeis = new producto ("Caja Sorpresa Pequeña", 30000, "../img/caja6.jpeg", "cajas");
 
 
 baseDeDatos.push(ProductoUno);
@@ -59,31 +59,31 @@ for (let i = 0; i < baseDeDatos.length; i++){
         <h4 class="card-title text-center">${baseDeDatos[i].titulo}</h4>
         <p class="card-text text-center">${baseDeDatos[i].precio}</p>
          <div class="col text-center">
-         <a onclick="agregarProductoAlCarrito(${baseDeDatos[i].precio})" href="#" class="btn btn-info  btn-default">Agregar al carrito</a>
+         <a onclick="agregarProductoAlCarrito(${baseDeDatos[i].precio})" href="#" id="mensaje" class="btn btn-info addToCard btn-default">Agregar al carrito</a>
          </div>
       </div>
    </div>`
- 
 }
  
-   cardcard = document.getElementById("cardCajas");
-   cardcard.innerHTML  = acumuladorCard;
-
-
+cardcard = document.getElementById("cardCajas");
+cardcard.innerHTML  = acumuladorCard;
 
 function agregarProductoAlCarrito(precioDelProducto) {
    localStorage.setItem("carrito",(carrito))
    carrito.push(precioDelProducto);
    console.log(carrito);
    console.log(`tienes ${carrito.length} productos en tu carrito`);
-   document.getElementById(`mensajeCarrito`).innerHTML = `<p class="text-center alert alert-success" style= "font-family: 'Pacifico', cursive; font-size: 25px;">Se agrego al carrito</p>`;
- 
+   $(`#msjCarrito`).html(`<p class="text-center alert alert-success" style= "font-family: 'Pacifico', cursive; font-size: 25px;">Se agrego al carrito</p>`);
+   $(`#msjCarrito`).fadeIn(2000,function(){
+      $(`#msjCarrito`).hide();
+   });
    suma= 0;
    carrito.forEach (function(carrito){
       suma += carrito;
   });
   console.log(`el total de tu carrito es ${suma}`);
 }
+
 
 function validarFormulario(){
   
@@ -113,7 +113,3 @@ function validarFormulario(){
    
    }
    
-   
-
-
-
