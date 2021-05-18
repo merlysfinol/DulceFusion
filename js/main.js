@@ -1,4 +1,3 @@
-
 const carrito = [];
 const baseDeDatos = [];
 let acumuladorCard = ``;
@@ -113,3 +112,29 @@ function validarFormulario(){
    
    }
    
+   async function cambiaridioma(lang) {   
+
+      let response = await fetch('language.json');
+      let data = await response.json();
+      console.log(data[lang]);
+        $("#primer").html(data[lang].primer)
+        $("#segundo").html(data[lang].segundo)
+        $("#tercero").html(data[lang].tercero)
+        $("#cuarto").html(data[lang].cuarto)
+
+        $("#titulo1").html(data[lang].titulo1)
+        $("#quinto").html(data[lang].quinto)
+        $("#sexto").html(data[lang].sexto)
+        $("#septimo").html(data[lang].septimo)
+        $("#octavo").html(data[lang].octavo)
+        $("#noveno").html(data[lang].noveno)
+
+        $("#titulo2").html(data[lang].titulo2)
+
+        $("#titulo3").html(data[lang].titulo3)
+
+
+        
+      
+      
+      } 
