@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dulcefusion.chile</title>
+	<link rel="shortcut icon" href="img/logo.png" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header>
+		<div id="quitadoNav">
+
+			<ul class="nav justify-content-center">
+				<div class="p-2 mr-auto iconoNav d-flex">
+					<span class="col-md-1 offset-md-2"><li><a href="https://www.instagram.com/dulcefusion.chile/">
+						<img class="icon2" src="img/instagram.png" alt="logo instagram"></a></li></span>
+
+					<span class="col-md-1 offset-md-2"><li><a href="https://www.facebook.com/Dulcefusionchile-100586755013589">
+						<img class="icon2" src="img/facebook.png" alt="logo facebook"></a></li></span>	
+				</div>
+		
+				<li class="nav-item"><br>
+					<a class="nav-link text-body " href="index.html">Home</a>
+				</li>
+
+				<li class="nav-item dropdown"><br>
+					<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="#">Nosotros</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="html/nosotros.html">Sobre Nosotros</a>
+							<a class="dropdown-item" href="html/envios.html">Repartos y Envios</a>
+						</div>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link text-body" href="index.html"><img id="logo"src="img/logo.png" alt="este es el logo"></a>
+				</li>
+
+				<li class="nav-item dropdown"><br>
+					<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="html/tienda.html">Tienda</a>
+						<div class="dropdown-menu" id="categorias2">
+							
+				</li>
+
+				<li class="nav-item"><br>
+					<a class="nav-link text-body" href="html/contacto.html">Contactos</a>
+				</li>
+
+				<div class="p-2 ml-auto d-flex  iconoNav">
+					<span class="col-md-1 offset-md-2"><li><a href=../carrito.html>
+						<img class="icon2" src="img/carrito.png" alt="logo carrito"></a></li></span>
+
+					<span class="col-md-1 offset-md-2"><li><a href=>
+						<img class="icon2" src="img/lupa.png" alt="logo lupa"></a></li></span>	
+				</div>
+			</ul>
+		</div>
+	
+		<div id="montadoNav">
+			<nav class="navbar navbar-expand-md bg-light navbar-dark">
+				<a class="navbar-brand" href="index.html">
+				<img src="img/logo.png" alt="logo" style="width:130px; height: 130px;" > </a>
+			 
+				<button class="navbar-toggler btn-dark " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon "></span></button>
+			
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav mr" >
+
+						<li class="nav-item dropdown"><br>
+							<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="html/tienda.html">Tienda</a>
+								<div class="dropdown-menu" id="categorias2">
+									
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link navPequeño text-dark" href="nosotros.html">Sobre Nosotros</a>
+						</li>  
+
+						<li class="nav-item">
+							<a class="nav-link navPequeño text-dark" href="envios.html">Repartos Y Envios</a>
+						</li> 
+						
+						<li class="nav-item">
+							<a class="nav-link navPequeño text-dark" href="contacto.html">Contactos</a>
+						</li>
+					</ul>
+				</div>  
+	  		</nav>
+       </div>  
+	</header>
+	   
+	<main>
+		<div class="items">
+			<div class="card-columns" style="width: 100%;" id="cardCajas" class="dropdown-item"></div> 
+			</div>
+			<div id=Ocultar3>
+
+
+		<section class="shopping-cart">
+			<div id="Sin-Productos" class="container">
+				<br><br>
+				<h1 class="text-center">CARRITO</h1>
+				<hr>
+				<div class="row">
+					<div class="col-6">
+						<div class="shopping-cart-header">
+							<h6>Producto</h6>
+						</div>
+					</div>
+					<div class="col-2">
+						<div class="shopping-cart-header">
+							<h6 class="text-truncate">Precio</h6>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="shopping-cart-header">
+							<h6>Cantidad</h6>
+						</div>
+					</div>
+				</div>
+				<!-- ? START SHOPPING CART ITEMS -->
+				<div id="mostrarProducto" class="shopping-cart-items shoppingCartItemsContainer">
+				</div>
+				<!-- ? END SHOPPING CART ITEMS -->
+	
+				<!-- START TOTAL -->
+				<div class="row">
+					<div class="col-12">
+						<div class="shopping-cart-total d-flex align-items-center">
+							<p class="mb-0">Total</p>
+							<p class="ml-4 mb-0 shoppingCartTotal"></p>
+							<div id="PrecioTotal"></div>
+							<div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+								data-delay="2000">
+								<div class="toast-header">
+									<span>✅</span>
+									<strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+									<button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="toast-body text-white">
+									Se aumentó correctamente la cantidad
+								</div>
+							</div>
+							<button class="btn btn-success ml-auto comprarButton">Comprar</button>
+						</div>
+					</div>
+				</div>
+	
+				<!-- END TOTAL -->
+	
+		</section>
+		</div>
+		<br><br>
+	</main>
+	<footer>
+		
+		<nav class="navegacionFooter fondoFooter">
+		<div class="footer1">
+			<a class="nav-link" href="index.html"><img src="img/logo.png" class="logoF" alt="logo"></a>
+		</div>
+		<div class="footer2 ">
+			<h3 class="subtituloMenuF">Menu</h3>
+			<ul >
+				<li class="listaFooter"><a id="primer" class="textoF2" href="index.html">Home</a></li>
+				<li class="listaFooter"><a id="segundo"class="textoF2" href="html/nosotros.html">Nosotros</a></li>
+				<li  class="listaFooter"><a id="tercero"class="textoF2" href="html/tienda.html">Tienda</a></li>
+				<li  class="listaFooter"><a id="cuarto" class="textoF2" href="html/envios.html">Zona De Envios</a></li>
+			</ul>
+		</div>	
+
+		<div class="footer5 footer3">
+			<h1 id="titulo3" class="subtituloMenuF">Lenguaje</h1>
+			<br>
+			<li class="listaFooter"><button class="btn  btn-outline-info btn-lg" onclick="cambiaridioma('es')" type="button">Español</button></li>
+			<br>
+			<li class="listaFooter"><button class="btn  btn-outline-info btn-lg" onclick="cambiaridioma('en')" type="button">Ingles</button></li>
+		</div>
+
+		<div class="footer4">
+			<h3 id="titulo2" class="subtituloMenuF">Siguenos</h3>
+			<ul>
+				<li class="listaFooter"><a href="https://www.instagram.com/dulcefusion.chile/"><img id="img1" src="img/instagram.png" alt="logo instagram"></a></li>
+				<li class="listaFooter"><a href="https://www.facebook.com/Dulcefusionchile-100586755013589"><img  id="img1" src="img/facebook.png" alt="logo facebook"></a></li>
+				<li class="listaFooter"><a href="https://api.whatsapp.com/send/?phone=56987734280&text&app_absent=0"><img  id="img1" src="img/whatsapp.png" alt="logo whatsapp"></a></li>
+
+			</ul>	
+		</div>
+		
+	</nav>
+</footer>		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+	<script src="carrito.js"></script>
+</body>
+</html>

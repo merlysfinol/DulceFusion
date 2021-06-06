@@ -43,14 +43,9 @@
 			</li>
 
 			<li class="nav-item dropdown"><br>
-					<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="tienda.html">Tienda</a>
-						<div class="dropdown-menu">
-							<a class="dropdown-item" href="arreglos.html">Arreglos</a>
-							<a class="dropdown-item" href="desayunos.html">Desayunos</a>
-							<a class="dropdown-item" href="cajas.html">Cajas Sopresas</a>
-							<a class="dropdown-item" href="chocoramos.html">Ramos de Chocolates</a>
-							<a class="dropdown-item" href="loultimo.html">Lo Último</a>
-						</div>
+				<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="html/tienda.html">Tienda</a>
+					<div class="dropdown-menu" id="categorias2">
+						
 			</li>
 
 			<li class="nav-item"><br>
@@ -58,13 +53,12 @@
 			</li>
 
 			<div class="p-2 ml-auto d-flex  iconoNav">
-				<span class="col-md-1 offset-md-2"><li><a href=>
-					<img class="icon2" src="../img/carrito.png" alt="logo carrito"></a></li></span>
+				<span class="col-md-1 offset-md-2"><li><a href="../carrito.html">
+					<img class="icon2" src="../img/carrito.png" alt="logo carrito" ></a></li></span>
 
 				<span class="col-md-1 offset-md-2"><li><a href=>
 					<img class="icon2" src="../img/lupa.png" alt="logo lupa"></a></li></span>	
 			</div>
-		</ul>
 	</div>
 
 	<div id="montadoNav">
@@ -77,25 +71,12 @@
 		
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav mr" >
-					<li class="nav-item">
-					<a class="nav-link navPequeño text-dark" href="arreglos.html">Arreglos</a>
+					
+					<li class="nav-item dropdown"><br>
+						<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="html/tienda.html">Tienda</a>
+							<div class="dropdown-menu" id="categorias2">
+								
 					</li>
-
-					<li class="nav-item">
-					<a class="nav-link navPequeño text-dark" href="desayunos.html">Desayunos </a>
-					</li>
-
-					<li class="nav-item">
-					<a class="nav-link navPequeño text-dark" href="chocoramos.html">Ramos de Chocolate</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link navPequeño text-dark" href="cajas.html">Cajas Sorpresas</a>
-					</li>  
-
-					<li class="nav-item">
-						<a class="nav-link navPequeño text-dark" href="loultimo.html">Lo Último</a>
-					</li>  
 
 					<li class="nav-item">
 						<a class="nav-link navPequeño text-dark" href="nosotros.html">Sobre Nosotros</a>
@@ -114,7 +95,14 @@
    </div>  
  </header>
 
+ <div id="alertBotin"></div>
+
  <main>
+
+	<div class="items">
+		<div class="card-columns" style="width: 100%;" id="cardCajas" class="dropdown-item"></div> 
+		</div>
+	<div id=Ocultar3>
 
 		<div class="animate__animated animate__fadeInRight">
 			<img class="fotoPortada" src="../img/cr17.jpg" style="width: 100%;"  alt="imagen de presentacion"> 
@@ -593,7 +581,7 @@
 
  </main>
 
-<footer>	
+ <footer>
 	<nav class="navegacionFooter fondoFooter">
 		<div class="footer1">
 			<a class="nav-link" href="../index.html"><img src="../img/logo.png" class="logoF" alt="logo"></a>
@@ -608,16 +596,12 @@
 			</ul>
 		</div>	
 
-		<div class="footer3">
-			<h3 class="subtituloMenuF" >Categorias</h3>
-			<ul> 
-				<li class="listaFooter"><a class="textoF2" href="arreglos.html">Arreglos</a></li>
-				<li class="listaFooter"><a class="textoF2" href="desayunos.html">Desayunos</a></li>
-				<li class="listaFooter"><a class="textoF2" href="cajas.html">Cajas Sorpresas</a></li>
-				<li class="listaFooter"><a class="textoF2" href="Chocoramos.html">Ramos De Chocolates</a></li>
-				<li class="listaFooter"><a class="textoF2" href="loUltimo.html">Lo Último</a></li>
-
-			</ul>
+		<div class="footer5 footer3">
+			<h1 id="titulo3" class="subtituloMenuF">Lenguaje</h1>
+			<br>
+			<li class="listaFooter"><button class="btn  btn-outline-info btn-lg" onclick="cambiaridioma('es')" type="button">Español</button></li>
+			<br>
+			<li class="listaFooter"><button class="btn  btn-outline-info btn-lg" onclick="cambiaridioma('en')" type="button">Ingles</button></li>
 		</div>
 
 		<div class="footer4">
@@ -629,13 +613,17 @@
 
 			</ul>	
 		</div>
-	</nav>	
-</footer>		
+	</nav>
+	
+</footer>	
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src='../main.js'></script>
+<script src="../carrito.js"></script>	
 
 </body>
 </html>

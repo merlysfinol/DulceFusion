@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-	<link href="../css/all.css" rel="stylesheet">
+	<link href="css/all.css" rel="stylesheet">
 	
 	
 	<meta charset="utf-8">
@@ -40,7 +40,7 @@
 				</div>
 		
 				<li class="nav-item"><br>
-					<a class="nav-link text-body fotoBaja" href="html/index.html">Home</a>
+					<a class="nav-link text-body fotoBaja" href="index.html">Home</a>
 				</li>
 
 				<li class="nav-item dropdown"><br>
@@ -57,13 +57,8 @@
 
 				<li class="nav-item dropdown"><br>
 						<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="html/tienda.html">Tienda</a>
-							<div class="dropdown-menu">
-								<a class="dropdown-item" href="html/arreglos.html">Arreglos</a>
-								<a class="dropdown-item" href="html/desayunos.html">Desayunos</a>
-								<a class="dropdown-item" href="html/cajas.html">Cajas Sopresas</a>
-								<a class="dropdown-item" href="html/chocoramos.html">Ramos de Chocolates</a>
-								<a class="dropdown-item" href="html/loultimo.html">Lo Último</a>
-							</div>
+							<div class="dropdown-menu" id="categorias2">
+								
 				</li>
 
 				<li class="nav-item"><br>
@@ -71,8 +66,8 @@
 				</li>
 
 				<div class="p-2 ml-auto d-flex  iconoNav">
-					<span class="col-md-1 offset-md-2"><li><a href=>
-						<img class="icon2" src="img/carrito.png" alt="logo carrito"></a></li></span>
+					<span class="col-md-1 offset-md-2"><li><a href="carrito.html">
+						<img class="icon2" src="img/carrito.png" alt="logo carrito" ></a></li></span>
 
 					<span class="col-md-1 offset-md-2"><li><a href=>
 						<img class="icon2" src="img/lupa.png" alt="logo lupa"></a></li></span>	
@@ -90,44 +85,36 @@
 			
 				<div class="collapse navbar-collapse" id="collapsibleNavbar">
 					<ul class="navbar-nav mr" >
-						<li class="nav-item">
-						<a class="nav-link navPequeño text-dark" href="html/arreglos.html">Arreglos</a>
-						</li>
+					
+					<li class="nav-item dropdown"><br>
+					<a class="nav-link dropdown-toggle text-body" data-toggle="dropdown" href="html/tienda.html">Tienda</a>
+						<div class="dropdown-menu" id="categorias2">
+							
+					</li>
 
-						<li class="nav-item">
-						<a class="nav-link navPequeño text-dark" href="html/desayunos.html">Desayunos </a>
-						</li>
+					<li class="nav-item">
+						<a class="nav-link navPequeño text-dark" href="html/nosotros.html">Sobre Nosotros</a>
+					</li>  
 
-						<li class="nav-item">
-						<a class="nav-link navPequeño text-dark" href="html/chocoramos.html">Ramos de Chocolate</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link navPequeño text-dark" href="html/cajas.html">Cajas Sorpresas</a>
-						</li>  
-
-						<li class="nav-item">
-							<a class="nav-link navPequeño text-dark" href="html/loultimo.html">Lo Último</a>
-						</li>  
-
-						<li class="nav-item">
-							<a class="nav-link navPequeño text-dark" href="html/nosotros.html">Sobre Nosotros</a>
-						</li>  
-
-						<li class="nav-item">
-							<a class="nav-link navPequeño text-dark" href="html/envios.html">Repartos Y Envios</a>
-						</li> 
+					<li class="nav-item">
+						<a class="nav-link navPequeño text-dark" href="html/envios.html">Repartos Y Envios</a>
+					</li> 
 						
-						<li class="nav-item">
-							<a class="nav-link navPequeño text-dark" href="html/contacto.html">Contactos</a>
-						</li>
-					</ul>
+					<li class="nav-item">
+						<a class="nav-link navPequeño text-dark" href="html/contacto.html">Contactos</a>
+					</li>
+				</ul>
 				</div>  
 	  		</nav>
        </div>  
 	</header>
-
+	<div id="alertBotin"></div>
 	<main>
+		<div class="items">
+		<div class="card-columns" style="width: 100%;" id="cardCajas" class="dropdown-item"></div> 
+		</div>
+		<div id=Ocultar3>
+
 		<div id="demo" class="carousel slide animate__animated animate__fadeInRight" data-ride="carousel">
 			<ul class="carousel-indicators">
 				<li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -154,48 +141,52 @@
 					<span class="carousel-control-next-icon"></span></a>
 		</div>
 
-			<div style="position: relative;"><h1 class="tituloIndex" id="tituloIndex"><hr>Dulce Fusion<hr></h1></div>
+	
+
+	<div style="position: relative;"><h1 class="tituloIndex" id="tituloIndex"><hr>Dulce Fusion<hr></h1></div>
+	
+<div class="contenedor">
+
+	<div class="hijo1 container"><a href="html/tienda.html">
+		<div>
+			<img src="img/2.png" alt="imagen del main 1" class="imagen1">
+				<div class="row">
+					<div class="col text-center">
+						<a class="btn btn-outline-info btn-lg btn-default" id="boton" href="html/tienda.html" role="button">Los mejores regalos</a>
+					</div>				
+				</div>
+		</div>
+	</div>
+
+	<div class="hijo2 container"><a href="html/tienda.html">
+		<div>
+			<img src="img/5.png" alt="imagen del main 2" class="imagen2">
+				<div class="row">
+					<div class="text-center col">
+						<a class="btn btn-outline-info btn-lg btn-default" id="boton"  href="html/tienda.html" role="button">Ramos de Chocolate</a>
+					</div>				
+				</div>
+		</div>
+	</div>
+
+	<div class="hijo3 container"><a href="html/tienda.html">
+		<div>
+			<img src="img/6.png" alt="imagen del main 3" class="imagen3">
+				<div class="row">
+					<div class="col text-center">
+						<a class="btn btn-outline-info btn-lg btn-default" id="boton"  href="html/tienda.html" role="button"> Ver Más</a>
+					</div>				
+				</div>
+		</div>
+	</div>
+							
+	<div class="hijo4"><a href="html/envios.html">
+		<img src="img/7.png" alt="imagen del main 4" class="imagen4"></a>
+	</div>
+
+</div>	
 			
-		<div class="contenedor">
-
-			<div class="hijo1 container"><a href="html/arreglos.html">
-				<div>
-					<img src="img/2.png" alt="imagen del main 1" class="imagen1">
-						<div class="row">
-							<div class="col text-center">
-								<a class="btn btn-outline-info btn-lg btn-default" id="boton" href="html/arreglos.html" role="button">Arreglos De Dulces</a>
-							</div>				
-						</div>
-				</div>
-			</div>
-
-			<div class="hijo2 container"><a href="html/chocoramos.html">
-				<div>
-					<img src="img/5.png" alt="imagen del main 2" class="imagen2">
-						<div class="row">
-							<div class="text-center col">
-								<a class="btn btn-outline-info btn-lg btn-default" id="boton"  href="html/chocoramos.html" role="button">Ramos de Chocolate</a>
-							</div>				
-						</div>
-				</div>
-			</div>
-
-			<div class="hijo3 container"><a href="html/desayunos.html">
-				<div>
-					<img src="img/6.png" alt="imagen del main 3" class="imagen3">
-						<div class="row">
-							<div class="col text-center">
-								<a class="btn btn-outline-info btn-lg btn-default" id="boton"  href="html/desayunos.html" role="button">Desayunos</a>
-							</div>				
-						</div>
-				</div>
-			</div>
-									
-			<div class="hijo4"><a href="html/envios.html">
-				<img src="img/7.png" alt="imagen del main 4" class="imagen4"></a>
-			</div>
-
-		</div>	
+		
 
 		<div class="medidaPequeña"><br>
 			<h2 class="tituloIndex"><hr>Lo Ultimo<hr></h2>
@@ -203,44 +194,36 @@
 				<div class="padreCard">
 					<div class="card tituloCard card1 animate__animated animate__fadeInDown" >
 						<a href="html/loultimo.html" ><img class="card-img-top" src="img/loultimo6.jpeg" alt="Card image1"></a>
-							<div class="card-body"><a class="" href="html/loUltimo.html" ><h2 class="card-title tituloCard">Arreglo Red Love</h2></a>
+							<div class="card-body"><a class="" href="html/tienda.html" ><h2 class="card-title tituloCard">Arreglo Red Love</h2></a>
 								<h4>35.000</h4>
 							</div>
 					</div>
 
 					<div class="card tituloCard card2 animate__animated animate__fadeInDown">
 						<a href="html/loUltimo.html" ><img class="card-img-top" src="img/regalo5.jpeg" alt="Card image2"></a>
-							<div class="card-body"><a class="" href="html/loUltimo.html" ><h2 class="card-title tituloCard">Arreglo Lovely</h2></a>
+							<div class="card-body"><a class="" href="html/tienda.html" ><h2 class="card-title tituloCard">Arreglo Lovely</h2></a>
 								<h4>23.500</h4>
 							</div>
 					</div>
 
 					<div class="card tituloCard card3 animate__animated animate__fadeInDown " >
 						<a href="html/loUltimo.html" ><img class="card-img-top" src="img/loultimo4.jpeg" alt="Card image3"></a>
-							<div class="card-body"><a class="" href="html/loUltimo.html" ><h2 class="card-title tituloCard">Globo Aerostatico</h2></a>
+							<div class="card-body"><a class="" href="html/tienda.html" ><h2 class="card-title tituloCard">Globo Aerostatico</h2></a>
 								<h4>12.000</h4>
 							</div>
 					</div>
 
 					<div class="card tituloCard card4  animate__animated animate__fadeInDown" >
 						<a href="html/loUltimo.html" ><img class="card-img-top" src="img/ramo1.jpeg" alt="Card image4"></a>
-							<div class="card-body "><a class="" href="html/chocoramos.html" ><h2 class="card-title tituloCard">Maxi Ramo</h2></a>
+							<div class="card-body "><a class="" href="html/tienda.html" ><h2 class="card-title tituloCard">Maxi Ramo</h2></a>
 								<h4>28.000</h4>
 							</div>
 					</div>
 				</div>
 		</div>
-
-		<div class="container">
-			<ul class="pagination justify-content-center">
-				<li class="page-item"><a class="page-link" href="javascript:void(0);">&laquo;</a></li>
-				<li class="page-item"><a class="page-link" href="javascript:void(0);">1</a></li>
-				<li class="page-item"><a class="page-link" href="javascript:void(0);">2</a></li> 
-				<li class="page-item"><a class="page-link" href="javascript:void(0);">3</a></li>
-				<li class="page-item"><a class="page-link" href="javascript:void(0);">&raquo;</a></li>
-			</ul>
-		</div>
+</div>
 	
+	</div>
 		<div class="imgBaja animate__animated animate__fadeInRight" >
 			<img src="img/cr27.jpg" alt="imagen main bajo" style="width: 100%; height: 500px;"> 
 		</div>
@@ -263,16 +246,12 @@
 				</ul>
 			</div>	
 
-			<div class="footer3">
-				<h3 id="titulo1" class="subtituloMenuF" >Categorias</h3>
-				<ul> 
-					<li class="listaFooter"><a id="quinto" class="textoF2" href="html/arreglos.html">Arreglos</a></li>
-					<li class="listaFooter"><a id="sexto" class="textoF2" href="html/desayunos.html">Desayunos</a></li>
-					<li class="listaFooter"><a id="septimo" class="textoF2" href="html/cajas.html">Cajas Sorpresas</a></li>
-					<li class="listaFooter"><a id="octavo" class="textoF2" href="html/Chocoramos.html">Ramos De Chocolates</a></li>
-					<li class="listaFooter"><a id="noveno"class="textoF2" href="html/loUltimo.html">Lo Último</a></li>
-
-				</ul>
+			<div class="footer5 footer3">
+				<h1 id="titulo3" class="subtituloMenuF">Lenguaje</h1>
+				<br>
+				<li class="listaFooter"><button class="btn  btn-outline-info btn-lg" onclick="cambiaridioma('es')" type="button">Español</button></li>
+				<br>
+				<li class="listaFooter"><button class="btn  btn-outline-info btn-lg" onclick="cambiaridioma('en')" type="button">Ingles</button></li>
 			</div>
 
 			<div class="footer4">
@@ -284,19 +263,14 @@
 
 				</ul>	
 			</div>
-			<div class="footer5">
-				<h1 id="titulo3" class="subtituloMenuF">Lenguaje</h1>
-				<br>
-				<li class="listaFooter"><button class="btn  btn-outline-info btn-lg" onclick="cambiaridioma('es')" type="button">Español</button></li>
-				<br>
-				<li class="listaFooter"><button class="btn  btn-outline-info btn-lg" onclick="cambiaridioma('en')" type="button">Ingles</button></li>
-			</div>
+			
 		</nav>
 	</footer>		
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script src='js/main.js'></script>
+	<script src='main.js'></script>
+	<script src="carrito.js"></script>
 </body>
 </html>
