@@ -4,7 +4,7 @@
       "nombre": "Maxi Arreglo",
       "categoria": "arreglos",
       "precio": 33000,
-      "imagen": "/img/arreglo1.jpeg",
+      "imagen": "img/arreglo1.jpeg",
       "stock": 10,
       "cantidadCompra": 0
     },
@@ -13,7 +13,7 @@
         "nombre": "Arreglo Dacia",
         "categoria": "arreglos",
         "precio": 20000,
-        "imagen": "/img/arreglo5.jpeg",
+        "imagen": "img/arreglo5.jpeg",
         "stock": 12,
         "cantidadCompra": 0
       },
@@ -22,7 +22,7 @@
         "nombre": "Arreglo Gold",
         "categoria": "arreglos",
         "precio": 24990,
-        "imagen": "/img/arreglo2.jpeg",
+        "imagen": "img/arreglo2.jpeg",
         "stock": 17,
         "cantidadCompra": 0
       },
@@ -31,7 +31,7 @@
         "nombre": "Box Cervezero",
         "categoria": "arreglos",
         "precio": 15000,
-        "imagen": "/img/arreglo10.jpeg",
+        "imagen": "img/arreglo10.jpeg",
         "stock": 5,
         "cantidadCompra": 0
       },
@@ -40,7 +40,7 @@
         "nombre": "Luxy Arreglo",
         "categoria": "arreglos",
         "precio": 21990,
-        "imagen": "/img/arreglo9.jpeg",
+        "imagen": "img/arreglo9.jpeg",
         "stock": 7,
         "cantidadCompra": 0
       },
@@ -49,7 +49,7 @@
         "nombre": "Arreglo Venezolano",
         "categoria": "arreglos",
         "precio": 27000,
-        "imagen": "/img/arreglo7.jpeg",
+        "imagen": "img/arreglo7.jpeg",
         "stock": 25,
         "cantidadCompra": 0
       },
@@ -58,7 +58,7 @@
         "nombre": "Box a tu gusto",
         "categoria": "arreglos",
         "precio": 20000,
-        "imagen": "/img/arreglo11.jpeg",
+        "imagen": "img/arreglo11.jpeg",
         "stock": 0,
         "cantidadCompra": 0
       },
@@ -67,7 +67,7 @@
         "nombre": "Arreglo Pro",
         "categoria": "arreglos",
         "precio": 35000,
-        "imagen": "/img/arreglo4.jpeg",
+        "imagen": "img/arreglo4.jpeg",
         "stock": 9,
         "cantidadCompra": 0
       },
@@ -76,7 +76,7 @@
         "nombre": "Arreglo 0 Azucar",
         "categoria": "arreglos",
         "precio": 26000,
-        "imagen": "/img/arreglo8.jpeg",
+        "imagen": "img/arreglo8.jpeg",
         "stock": 7,
         "cantidadCompra": 0
       },
@@ -85,7 +85,7 @@
         "nombre": "Maxi Ramo Venezolano",
         "categoria": "chocoramo",
         "precio": 28000,
-        "imagen": "/img/ramo1.jpeg",
+        "imagen": "img/ramo1.jpeg",
         "stock": 16,
         "cantidadCompra": 0
       },
@@ -94,7 +94,7 @@
         "nombre": "Rose Venezolano",
         "categoria": "chocoramo",
         "precio": 23500,
-        "imagen": "/img/ramo2.jpeg",
+        "imagen": "img/ramo2.jpeg",
         "stock": 3,
         "cantidadCompra": 0
       },
@@ -103,7 +103,7 @@
         "nombre": "Dulce Ramo",
         "categoria": "chocoramo",
         "precio": 10990,
-        "imagen": "/img/ramo4.jpeg",
+        "imagen": "img/ramo4.jpeg",
         "stock": 13,
         "cantidadCompra": 0
       },
@@ -112,7 +112,7 @@
         "nombre": "Ramo Venezolano",
         "categoria": "chocoramo",
         "precio": 20990,
-        "imagen": "/img/ramo6.jpeg",
+        "imagen": "img/ramo6.jpeg",
         "stock": 8,
         "cantidadCompra": 0
       },
@@ -121,7 +121,7 @@
         "nombre": "Maxi Rosas",
         "categoria": "chocoramo",
         "precio": 27000,
-        "imagen": "/img/ramo3.jpeg",
+        "imagen": "img/ramo3.jpeg",
         "stock": 4,
         "cantidadCompra": 0
       },
@@ -130,7 +130,7 @@
         "nombre": "Ramo Ferrero Rocher",
         "categoria": "chocoramo",
         "precio": 18000,
-        "imagen": "/img/ramo5.jpeg",
+        "imagen": "img/ramo5.jpeg",
         "stock": 20,
         "cantidadCompra": 0
       },
@@ -139,7 +139,7 @@
         "nombre": "Ferrero Mas Rosas",
         "categoria": "chocoramo",
         "precio": 23000,
-        "imagen": "/img/ramo10.jpeg",
+        "imagen": "img/ramo10.jpeg",
         "stock": 11,
         "cantidadCompra": 0
       },
@@ -148,7 +148,7 @@
         "nombre": "Dulce Ramo Con Globo",
         "categoria": "chocoramo",
         "precio": 11990,
-        "imagen": "/img/ramo9.jpeg",
+        "imagen": "img/ramo9.jpeg",
         "stock": 22,
         "cantidadCompra": 0
       },
@@ -157,7 +157,7 @@
         "nombre": "Ramo Tradicional",
         "categoria": "chocoramo",
         "precio": 17990,
-        "imagen": "/img/ramo8.jpeg",
+        "imagen": "img/ramo8.jpeg",
         "stock": 6,
         "cantidadCompra": 0
       },
@@ -166,7 +166,7 @@
         "nombre": "Arreglo Gold",
         "categoria": "Desayunos",
         "precio": 23990,
-        "imagen": "/img/desayuno1.jpeg",
+        "imagen": "img/desayuno1.jpeg",
         "stock": 16,
         "cantidadCompra": 0
       },
@@ -175,7 +175,7 @@
         "nombre": "Desayuno Venezolano",
         "categoria": "Desayunos",
         "precio": 26000,
-        "imagen": "/img/desayuno2.jpeg",
+        "imagen": "img/desayuno2.jpeg",
         "stock": 7,
         "cantidadCompra": 0
       },
@@ -184,7 +184,7 @@
         "nombre": "Desayuno Decorado",
         "categoria": "Desayunos",
         "precio": 28000,
-        "imagen": "/img/desayuno3.jpeg",
+        "imagen": "img/desayuno3.jpeg",
         "stock": 17,
         "cantidadCompra": 0
       },
@@ -193,7 +193,7 @@
         "nombre": "Desayuno Sorpresa Niño",
         "categoria": "Desayunos",
         "precio": 26500,
-        "imagen": "/img/desayuno4.jpeg",
+        "imagen": "img/desayuno4.jpeg",
         "stock": 9,
         "cantidadCompra": 0
       },
@@ -202,7 +202,7 @@
         "nombre": "Desayuno Con Amor",
         "categoria": "Desayunos",
         "precio": 23990,
-        "imagen": "/img/desayuno5.jpeg",
+        "imagen": "img/desayuno5.jpeg",
         "stock": 16,
         "cantidadCompra": 0
       },
@@ -211,7 +211,7 @@
         "nombre": "Desayuno Caja sorpresa",
         "categoria": "Desayunos",
         "precio": 22500,
-        "imagen": "/img/desayuno6.jpeg",
+        "imagen": "img/desayuno6.jpeg",
         "stock": 21,
         "cantidadCompra": 0
       },
@@ -220,7 +220,7 @@
         "nombre": "Desayuno Fusion",
         "categoria": "Desayunos",
         "precio": 26000,
-        "imagen": "/img/desayuno7.jpeg",
+        "imagen": "img/desayuno7.jpeg",
         "stock": 7,
         "cantidadCompra": 0
       },
@@ -229,7 +229,7 @@
         "nombre": "Desayuno Venezolano",
         "categoria": "Desayunos",
         "precio": 21000,
-        "imagen": "/img/desayuno8.jpeg",
+        "imagen": "img/desayuno8.jpeg",
         "stock": 14,
         "cantidadCompra": 0
       },
@@ -238,7 +238,7 @@
         "nombre": "Desayuno Gold Amor",
         "categoria": "Desayunos",
         "precio": 25000,
-        "imagen": "/img/desayuno9.jpeg",
+        "imagen": "img/desayuno9.jpeg",
         "stock": 37,
         "cantidadCompra": 0
       },
@@ -247,7 +247,7 @@
         "nombre": "Bouquet Globos Pasteles",
         "categoria": "Lo ultimo",
         "precio": 22000,
-        "imagen": "/img/loultimo10.jpeg",
+        "imagen": "img/loultimo10.jpeg",
         "stock": 10,
         "cantidadCompra": 0
       },
@@ -256,7 +256,7 @@
         "nombre": "Arreglo Lovey",
         "categoria": "Lo ultimo",
         "precio": 23500,
-        "imagen": "/img/loultimo5.jpeg",
+        "imagen": "img/loultimo5.jpeg",
         "stock": 15,
         "cantidadCompra": 0
       },
@@ -265,7 +265,7 @@
         "nombre": "Love Especial",
         "categoria": "Lo ultimo",
         "precio": 15000,
-        "imagen": "/img/loultimo3.jpeg",
+        "imagen": "img/loultimo3.jpeg",
         "stock": 12,
         "cantidadCompra": 0
       },
@@ -274,7 +274,7 @@
         "nombre": "Globo Aeroestatico",
         "categoria": "Lo ultimo",
         "precio": 12000,
-        "imagen": "/img/loultimo4.jpeg",
+        "imagen": "img/loultimo4.jpeg",
         "stock": 1,
         "cantidadCompra": 0
       },
@@ -283,7 +283,7 @@
         "nombre": "Bouquet Globos",
         "categoria": "Lo ultimo",
         "precio": 25000,
-        "imagen": "/img/loultimo6.jpeg",
+        "imagen": "img/loultimo6.jpeg",
         "stock": 18,
         "cantidadCompra": 0
       },
@@ -292,7 +292,7 @@
         "nombre": "Arreglo Red Love",
         "categoria": "Lo ultimo",
         "precio": 35000,
-        "imagen": "/img/loultimo6.jpeg",
+        "imagen": "img/loultimo6.jpeg",
         "stock": 11,
         "cantidadCompra": 0
       },
@@ -301,7 +301,7 @@
         "nombre": "Love Nutella",
         "categoria": "Lo ultimo",
         "precio": 16990,
-        "imagen": "/img/loultimo7.jpeg",
+        "imagen": "img/loultimo7.jpeg",
         "stock": 1,
         "cantidadCompra": 0
       },
@@ -310,7 +310,7 @@
         "nombre": "Love Rose",
         "categoria": "Lo ultimo",
         "precio": 33000,
-        "imagen": "/img/loultimo9.jpeg",
+        "imagen": "img/loultimo9.jpeg",
         "stock": 27,
         "cantidadCompra": 0
       },
@@ -319,7 +319,7 @@
         "nombre": "Vaso Decorado",
         "categoria": "Lo ultimo",
         "precio": 6990,
-        "imagen": "/img/loultimo8.jpeg",
+        "imagen": "img/loultimo8.jpeg",
         "stock": 40,
         "cantidadCompra": 0
       },
@@ -328,7 +328,7 @@
         "nombre": "Caja Sorpresa Grande",
         "categoria": "cajas",
         "precio": 50000,
-        "imagen": "/img/caja1.jpeg",
+        "imagen": "img/caja1.jpeg",
         "stock": 50,
         "cantidadCompra": 0
       },
@@ -337,7 +337,7 @@
         "nombre": "Caja Sorpresa Dulces",
         "categoria": "cajas",
         "precio": 35000,
-        "imagen": "/img/caja2.jpeg",
+        "imagen": "img/caja2.jpeg",
         "stock": 35,
         "cantidadCompra": 0
       },
@@ -346,7 +346,7 @@
         "nombre": "Caja Con Bouquet De Globos",
         "categoria": "cajas",
         "precio": 20000,
-        "imagen": "/img/caja3,3.jpeg",
+        "imagen": "img/caja3,3.jpeg",
         "stock": 20,
         "cantidadCompra": 0
       },
@@ -355,7 +355,7 @@
         "nombre": "Caja Sorpresa Mediana",
         "categoria": "cajas",
         "precio": 40000,
-        "imagen": "/img/caja4.jpeg",
+        "imagen": "img/caja4.jpeg",
         "stock": 60,
         "cantidadCompra": 0
       },
@@ -364,7 +364,7 @@
         "nombre": "Cajita De Amor",
         "categoria": "cajas",
         "precio": 22000,
-        "imagen": "/img/caja7.jpeg",
+        "imagen": "img/caja7.jpeg",
         "stock": 20,
         "cantidadCompra": 0
       },
@@ -373,7 +373,7 @@
         "nombre": "Caja Sorpresa Pequeña",
         "categoria": "cajas",
         "precio": 30000,
-        "imagen": "/img/caja6.jpeg",
+        "imagen": "img/caja6.jpeg",
         "stock": 80,
         "cantidadCompra": 0
       }

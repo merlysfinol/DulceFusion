@@ -31,7 +31,7 @@ function mensaje (event){
 }
 
 async function cambiaridioma(lang) {   
-   let response = await fetch("/language.json");
+   let response = await fetch("language.json");
    let data = await response.json();
    $("#primer").html(data[lang].primer)
    $("#segundo").html(data[lang].segundo)
@@ -68,7 +68,7 @@ function randerizarcategoria() {
 
 
 function BaseDeDatos(){  
-   return fetch('/productos.json').then(res => res.json());
+   return fetch('productos.json').then(res => res.json());
  }
  
  function filtrarProductos(categoria) {
